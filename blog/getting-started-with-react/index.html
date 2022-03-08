@@ -1,8 +1,7 @@
 <!doctype html><html lang=en-us>
 <head>
-<meta name=generator content="Hugo 0.93.2">
 <meta charset=utf-8>
-<title>Women In Tech Blog</title><meta name=author content="WomenInTech Blog">
+<title>Getting Started With React</title><meta name=author content="WomenInTech Blog">
 <meta name=description content="  This is meta description  ">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=5">
 <link rel="shortcut icon" href=/womenintechblogdev/images/favicon_hu9396d47224a9e72395554ed8bf2b1225_33022_32x0_resize_box_3.png type=image/x-icon>
@@ -60,34 +59,205 @@ AUTHOR WEBSITE: https://themefisher.com
 <input id=search-query name=s type=search placeholder="Type words & hit enter" class=text-center aria-label=search-query>
 </form></div><section class=section-sm>
 <div class=container>
-<div class="row no-gutters justify-content-center">
+<div class="row justify-content-center">
 <div class=col-lg-10>
-<div class=row>
-<div class=col-lg-12>
-<article class="card post-card">
-<a href=/womenintechblogdev/blog/getting-started-with-react/>
+<div class="text-center mb-5">
+<h3 class="h2 mb-4 post-title">Getting Started With React</h3><ul class="card-meta list-inline">
+<li class=list-inline-item>
+<a href=#! class=card-meta-author>
+<a href=/womenintechblogdev/author/valary-uhuru/ class=card-meta-author>
+<img loading=lazy decoding=async src=/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_26x26_resize_q95_h2_box.webp alt="Valary Uhuru" class=w-auto width=26 height=26 onerror='this.onerror="null",this.src="/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_26x26_resize_q95_box.jpg"'>
+<span>Valary Uhuru</span>
+</a>
+</a>
+</li><li class=list-inline-item>|</li><li class=list-inline-item>
+<span>04 November 2021</span>
+</li></ul></div><div class="mb-5 text-center">
 <picture>
 <source srcset=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_545x0_resize_q95_h2_box_3.webp media="(max-width: 575px)">
 <source srcset=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_600x0_resize_q95_h2_box_3.webp media="(max-width: 767px)">
 <source srcset=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_700x0_resize_q95_h2_box_3.webp media="(max-width: 991px)">
 <source srcset=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_1110x0_resize_q95_h2_box_3.webp>
-<img loading=lazy decoding=async class="w-100 h-auto rounded" src=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_1110x0_resize_box_3.png alt="Getting Started With React" width=1348 height=891>
+<img loading=lazy decoding=async class="img-fluid rounded" src=/womenintechblogdev/images/hero/valary-uhuru/getting-started-with-react/image_hu7fff1f7749c5459102d94a5be6e9afaa_98375_1110x0_resize_box_3.png alt="Post image" width=1348 height=891>
 </picture>
+</div><div class=content>
+<p>I can almost bet on it that you&rsquo;ve fallen in love with JavaScript and want to dive deeper into learning some of it&rsquo;s libaries and frameworks. Well if that&rsquo;s the case then this is the place to be. This guide will walk you through everything you need to know to get started with React.</p><p>We&rsquo;ll get set up, explain the how&rsquo;s and why&rsquo;s behind the basic concepts and build a small project that displays data from an API. I am assuming that we have a little knowledge of JavaScript core concepts such as Asychronous programing, Promises, Hoisting, ES6 Syntax etc. If not visit here <a href=https://www.geeksforgeeks.org/7-javascript-concepts-that-every-developer-must-know/><span style=color:blue> <strong>JavaScript Concepts That Every Developer Must Know</strong> </span></a> to learn more.</p><p>Grab a drink, buckle up and let&rsquo;s get started!</p><h3 id=sections>Sections</h3><ul>
+<li><a href=#prerequisites>Prerequisites</a></li><li><a href=#basic-javascript>Basic JavaScript</a></li><li><a href=#basic-html>Basic HTML</a></li><li><a href=#development-environment>Development Environment</a></li><li><a href=#creating-a-react-app>Creating a React App</a></li><li><a href=#exploring-create-react-app>Exploring Create React App</a></li><li><a href=#our-first-component>Our First Component</a></li><li><a href=#jsx>JSX</a></li><li><a href=#how-a-component-gets-rendered>How a Component Gets Rendered</a></li><li><a href=#lets-display-data-fetched-from-an-api>Let&rsquo;s Display Data Fetched From an API</a></li></ul><h2 id=prerequisites>Prerequisites</h2><p>You don&rsquo;t need to have any prior knowldge of React before reading this article, you however need to be familiar with a few things in order to get the most out of this guide.</p><h4 id=basic-javascript>Basic JavaScript</h4><p>React is a JS library so it makes sense to know JavaSript before learning React right? Worry less, you <strong>don&rsquo;t</strong> need to know Javscript extensively to learn React Js, just the basics.Here&rsquo;s a list of some of the concepts you should be familiar with before learning React.</p><ul>
+<li>Variables, functions and Data Types</li><li>Asychronous Programming</li><li>Arrays and Objects</li><li>ES6 features and syntax</li><li>DOM Manupulation</li></ul><h4 id=basic-html>Basic HTML</h4><p>In React we use JSX, which we will dive into later. But for now have a good grasp of HTML preferably HTML5.</p><ul>
+<li>How to structure HTML elements.</li><li>HTML attributes such as class, id, onclick, href etc</li></ul><h2 id=development-environment>Development Environment</h2><p>The first thing we do before interacting with any programming language is to set up it&rsquo;s developemt environment, React JS is no different.
+If you have <strong>Node JS</strong> and <strong>Visual Studio Code</strong> (or your preffered IDE) set up you can skip this section.</p><h4 id=node-js>Node JS</h4><p>Do I really need node to set up a React app? The answer is no. If you are a web developer that can handle HTML/CSS and JavaSCript you can try React without Node JS or any other complext tool to manage it. That&rsquo;s your assignment.</p><p>In our case we need Node js. To download it visit <a href=https://nodejs.org/en/download/><span style=color:blue><strong>this link</strong></span></a> and choose one that fit&rsquo;s your machine.</p><p>When the installation is complete, open your terminal and type</p><blockquote>
+<p>node -v
+This should show you the version of node that you have installed.
+The output should look something like:
+v16.7.0
+Hurrraaaaaayy!!! Congratulations! You have completed the first step to getting started with React.</p></blockquote><h4 id=visual-studio-code>Visual Studio Code</h4><p>VSC is a popular Open Source IDE for frontend development. There&rsquo;s a bunch of IDEs that you can try depending on your preference. For now we will run with Visual Studio Code.</p><p>Click <a href=https://code.visualstudio.com/download><span style=color:blue><strong>this link</strong></span></a> to download the version that suits your platform.
+That&rsquo;s enough development set up for now.</p><h2 id=creating-a-react-app>Creating a React App</h2><p>The next step is now creating a React app. Thank God for the folks at Facebook who made it easy for us to do that.
+All we to do is run this command in our terminal.</p><figure><img src=./images/react-app.png>
+</figure><p>This creates a React project called my-app.</p><figure><img src=./images/vscode.png><figcaption>
+<h4>Output on the terminal</h4></figcaption></figure><p>Realize we&rsquo;ve been directed on how to start our app</p><figure><img src=./images/cd-app.png>
+</figure><p>Run these commands on your terminal, this will start a development server and open a web browser for you.</p><figure><img src=./images/react-app.png><figcaption>
+<h4>Web browser</h4></figcaption></figure><p>You;ve just set up your first React app, if you want to know more about what happens in the background visit this link <a href=https://github.com/facebook/create-react-app>Create React App</a></p><h2 id=exploring-create-react-app>Exploring Create React App</h2><figure><img src=./images/react-file-structure.png><figcaption>
+<h4>Here's the file structure</h4></figcaption></figure><p>After running <code>npx create-react-app yourApp</code>, you will find your app root has three folders, <code>node_modules/</code>, <code>public/</code>, <code>src/</code> and three files <code>.gitignore</code>, <code>package.json</code>, <code>README.md</code> and <code>yarn.lock</code>.</p><h3 id=running-create-react-app>Running create-react-app</h3><p>Let&rsquo;s break down what you just did. The first line in the output is from <code>npx</code> . There are two things <code>npx</code> can do when you give it the command. It first looks in your local machine for the package to run it. If it doesn&rsquo;t find one, it starts looking for <code>npm</code>&rsquo;s package list. The first message in the output is just letting you know that it handled getting it.</p><p>Next inside <code>create-react-app</code>, your command runs through a series of checks. It finds information about your system, looks for any flags attached and whether you specified a folder to output. Then the actual <code>createApp</code> function runs. This checks if the directory you choose is a safe one. It does this by looking for log files, if it fails any of this checks you will receive an error message.</p><p>Next it begins to form a <code>package.json</code> file with the default values <code>name: yourAppName</code>, <code>version: 0.1.0</code> and <code>private: true</code>. This is written to the directory you specified. Here it determines if it should use <code>yarn</code> or <code>npm</code> based on what you have in your machine. A series of checks are run on the version of <code>npm/yarn</code>, <code>node version</code> to select the correct version of <code>react-scripts</code> to use.</p><p>The next function is called <code>run()</code> . This continues the installation. Right now the only output you&rsquo;ve seen so far is is the npx line &ldquo;Creating a react app in <yourdirectory>&rdquo;. The dependency list is created. By default this icludes <code>react</code>, <code>react-dom</code> and the version of <code>react-scripts</code> either from the internet if you are online or the local cache if you are not.</p><p>This is where you get the line <code>installing react, react-dom and react scripts</code>. The first thing it does is check if there&rsquo;s <code>package.json</code> file and <code>yarn.lock</code>. It loads <code>package.json</code> file into a variable called <code>appPackage</code> in JSON format. It checks if TypeScript is a dependency after it does this. Next it begins adding to the JSON.</p><p>First is the scripts, this will probably be familiar as <code>start</code>, <code>build</code>, <code>eject</code> and <code>test</code>. These are located in init.js file that we are currently going through. Next is the eslintConfig and defaultBrowsers. These are by default `>0.2%&rsquo;,&rsquo;not dead&rsquo;, &rsquo;not ie &lt;= 11&rsquo;,&rsquo;not op_mini all&rsquo;. Basically this means target all browsers that are higher than .2% market share, in active use, not below IE 11 or Opera Mini.This is a seperate package located in <code>package.json</code>. You can find it <a href=https://www.npmjs.com/package/browserslist><span> Here </span></a>.
+The <code>package.json</code> file is written out and will not be changed again. At this point there&rsquo;s no output yet, a <code>README.md</code> file is checked and if it exists it is renamed. The files specified in the template folder are then copied to a working directory. This is the <code>public</code>, <code>README.me</code>, <code>src</code> and <code>gitignore</code>. <code>gitignore</code> is copied without the <code>.</code> infront then renamed, this is to prevent an npm bug.
+After a check to see if React is installed, it moves to check if the repository has been initialized with git. These runs git init, and adds the first commit. This is where the line <code>Initialized a git repository</code> comes from.
+The last thing init.js does before ending the process is print the success message and instructions. These introduce you to basic <code>react scripts</code> commands and suggest you cd into your app directory to run your application.</p><h3 id=indexhtml>Index.html</h3><p>This is the entry file, the first thing that the web browser loads when a user navigates to your app. If you look at the file, it&rsquo;s just a normal HTML file that you&rsquo;re hopefully familiar with. If you look at the body, it&rsquo;s empty. React dynamically convert our React code into HTML and load it here, in the div with id &ldquo;root&rdquo;. With that out of the way let&rsquo;s get to the juicy part.</p><h2 id=our-first-component>Our First Component</h2><p>Open up our <strong>App.js</strong> component, this is the main component in our application. It is the first component to be rendered, the icing to our cake.
+The first thing we are going to do with our icing is remove all the code so that we build our component from scratch so that we better understand what&rsquo;s going on.
+Now that we have a nice and clean slate,we will start by importing <code>react</code></p><p><code>import react from 'react';</code></p><p>Next we declare a function, we will use ES6 arrow function here. That&rsquo;s more or less what a component is&mldr;A function with some logic and markup ( In this case JSX ). We are also going to export this function so we can use it elsewhere.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> () =&gt;{
+</span></span><span style=display:flex><span>                }
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#a6e22e>App</span>;
+</span></span></code></pre></div><p>Within this code we write a <code>return()</code> statement, that is what get&rsquo;s returned from this component, and contains our markup that get&rsquo;s rendered inform of HTMl.
+Finally let&rsquo;s add a <code>div</code> with an <code>h1</code> title tag. Our finished component looks like this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> () =&gt;{
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span>(
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h1</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Our</span> <span style=color:#a6e22e>First</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>App</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/h1&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h2</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>This</span> <span style=color:#a6e22e>is</span> <span style=color:#a6e22e>our</span> <span style=color:#a6e22e>first</span> <span style=color:#a6e22e>react</span> <span style=color:#a6e22e>app</span>, <span style=color:#a6e22e>isn</span><span style=color:#960050;background-color:#1e0010>&#39;</span><span style=color:#a6e22e>t</span> <span style=color:#a6e22e>it</span> <span style=color:#a6e22e>amazing</span><span style=color:#f92672>!!!!&lt;</span><span style=color:#960050;background-color:#1e0010>/h2&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
+</span></span><span style=display:flex><span>            )
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><p>Now you are probably thinking, Whoah!! HTML in a function? Even though it looks like HTML, it&rsquo;s something called JSX( JavaScript XML ).It allows us to mix JavaScript and HTML.
+This might seem a littel peculiar cause we started learning front-end development by seperating HTML and JavaScript( and even CSS ). That is where libaries come in, to keep things together and to make writing code easier.Keeping everything together in the same component makes it easier to maintain and reuse the code.
+Let&rsquo;s see that in action. Run this command in your terminal
+<code>npm run start</code>
+This should open the browser and you should be able to see your application running.
+Voila!! You just created your first component.</p><h3 id=jsx>JSX</h3><p>Let&rsquo;s dive deeper into JSX, you probably have some questions lingering.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>    <span style=color:#66d9ef>return</span>(
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>                    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h1</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Our</span> <span style=color:#a6e22e>First</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>App</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/h1&gt;</span>
+</span></span><span style=display:flex><span>                    <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h2</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>This</span> <span style=color:#a6e22e>is</span> <span style=color:#a6e22e>our</span> <span style=color:#a6e22e>first</span> <span style=color:#a6e22e>react</span> <span style=color:#a6e22e>app</span>, <span style=color:#a6e22e>isn</span><span style=color:#960050;background-color:#1e0010>&#39;</span><span style=color:#a6e22e>t</span> <span style=color:#a6e22e>it</span> <span style=color:#a6e22e>amazing</span><span style=color:#f92672>!!!!&lt;</span><span style=color:#960050;background-color:#1e0010>/h2&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
+</span></span><span style=display:flex><span>        );
+</span></span></code></pre></div><p>This looks like HTML and it&rsquo;s not. It&rsquo;s JSX! Evn though it looks like normal HTML but it&rsquo;s not, React is creating the element tree using the following syntax:
+<code>React.createElement(component,props,...children)</code></p><ul>
+<li>component: The HTML element you wish to create i.e <code>div</code>, <code>h1</code></li><li>props: Any props you wish to pass to the component</li><li>children: An array of <strong>HTML Elements</strong> nested within a component.
+So the same component we just created can be written as:</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> ()=&gt;{
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span>(
+</span></span><span style=display:flex><span>                <span style=color:#a6e22e>React</span>.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#39;div&#39;</span>, <span style=color:#66d9ef>null</span>, <span style=color:#a6e22e>React</span>.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#39;h1&#39;</span>,<span style=color:#66d9ef>null</span>, <span style=color:#e6db74>&#34;Hello World&#34;</span>),
+</span></span><span style=display:flex><span>                
+</span></span><span style=display:flex><span>                <span style=color:#a6e22e>React</span>.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#39;div&#39;</span>, <span style=color:#66d9ef>null</span>, <span style=color:#a6e22e>React</span>.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#39;h1&#39;</span>,<span style=color:#66d9ef>null</span>, <span style=color:#e6db74>&#34;This is our first react app, isn&#39;t it amazing!!!!&#34;</span>))
+</span></span><span style=display:flex><span>            );
+</span></span><span style=display:flex><span>         }
+</span></span></code></pre></div><p>This is a whole lot to type right? It looks messy. If you trace through it you will realize we are creating a <code>div</code> which has no props passed to it and has other elements created inside it which are <code>h1</code> and <code>h2</code>. If you&rsquo;ve interacted with JavaScript a lot you&rsquo;ll realize that it a lot similar to <code>document.createElement</code> after all this is a JavaScript library.
+This is the beauty of JSX, it allows you to write JavaScript and HTML without going through the hustle of <code>React.createElement()</code>.
+React developers almost exclusively use JSX, this section was important to understand what happens under the hood.</p><h3 id=making-things-dynamic>Making things dynamic</h3><p>Why use JSX when you can just write HTML and get away with it? Well if we remember what JSX stands for( JavaScript XML ). This means we can use JavaScript to make things dynamic. Our previous example looks like so:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>     <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> () =&gt;{
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span>(
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h1</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Our</span> <span style=color:#a6e22e>First</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>App</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/h1&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h2</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>This</span> <span style=color:#a6e22e>is</span> <span style=color:#a6e22e>our</span> <span style=color:#a6e22e>first</span> <span style=color:#a6e22e>react</span> <span style=color:#a6e22e>app</span>, <span style=color:#a6e22e>isn</span><span style=color:#960050;background-color:#1e0010>&#39;</span><span style=color:#a6e22e>t</span> <span style=color:#a6e22e>it</span> <span style=color:#a6e22e>amazing</span><span style=color:#f92672>!!!!&lt;</span><span style=color:#960050;background-color:#1e0010>/h2&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
+</span></span><span style=display:flex><span>            )
+</span></span><span style=display:flex><span>        }
+</span></span></code></pre></div><p>Now let&rsquo;s make it dynamic.
+Create a variable <code>message</code> to hold our message.
+<code>const message = 'This is our first react app, isn't it amazing!!!!';</code>
+Now to add JavaScript to use this, we use <strong>curlybraces</strong> <code>{}</code>.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> ()=&gt;{
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>message</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;This is our first react app, isn&#39;</span><span style=color:#a6e22e>t</span> <span style=color:#a6e22e>it</span> <span style=color:#a6e22e>amazing</span><span style=color:#f92672>!!!!</span><span style=color:#960050;background-color:#1e0010>&#39;</span>;
+</span></span><span style=display:flex><span>            <span style=color:#66d9ef>return</span>(
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h1</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>Our</span> <span style=color:#a6e22e>First</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>App</span><span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/h1&gt;</span>
+</span></span><span style=display:flex><span>                <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h2</span><span style=color:#f92672>&gt;</span>{ <span style=color:#a6e22e>message</span> }<span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/h2&gt;</span>
+</span></span><span style=display:flex><span>            )
+</span></span><span style=display:flex><span>        }
+</span></span></code></pre></div><p>If you run this in your terminal you will see the output. Now go ahead and change the message and see magic!
+We use curly braces to tell the compiler <strong>&ldquo;execute this code in JavaScript&rdquo;</strong>. If we didn&rsquo;t have the curly braces the message wouldn&rsquo;t be executed as JavaScript, and instead the text &lsquo;message&rsquo; would be displayed on your browser.</p><h2 id=how-a-component-gets-rendered>How a component gets rendered.</h2><p>Hopefully, I have cleared all the questions you have about JSX and creating components plus making them dynamic. I know you still asking yourself how these components get rendered right? This section will clear that up.
+Let&rsquo;s take a look at our file structure, notice <code>index.html</code> , this is always considered an entry file, to most developers if not all. You can change the entry point if you wish. For now we will leave it as is.
+Focus on this line of code</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>  <span style=color:#a6e22e>ReactDOM</span>.<span style=color:#a6e22e>render</span>(<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>App</span> <span style=color:#f92672>/&gt;</span>, document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#34;root&#34;</span>));
+</span></span></code></pre></div><p>Notice we have <code>document.getElementById("root");</code> finally some normal looking JavaScript. This gets the root element from the DOM using plain JavaScript and renders our App component within it. Our App component is imported like so:
+<code>import App from './App';</code>
+Remember we exported App from our App component. This lets other files or components use App component.
+The <code>root</code> element comes from <em>index.html</em> file from our folder called <code>public/</code> . As mentioned earlier, <code>index.html</code> is the file that gets rendered when the application loads. Within it we have a <code>div</code> with an id <code>root</code> which is empty and where our React components get rendered. Let&rsquo;s open our dev tools and have a look.</p><figure><img src=./images/console.png><figcaption>
+<h4>Output in the console</h4></figcaption></figure><h2 id=lets-display-data-fetched-from-an-api>Let&rsquo;s display data fetched from an API</h2><p>Wuuuuh wuuuh!! This is the most interesting part, in JavaScript there&rsquo;ll always be data to be fetched and dislplayed because you constantly have to communicate with the backend. We will not dive in too deep. We will use <code>fetch API</code>. Fetch API uses <code>Promise</code> to deliver more flexible features to make requests to servers from web browsers. In addition it is much simpler and cleaner compared to <code>XMLHttpRequests</code>.
+The <code>fetch()</code> is available in global scope which instructs the web browsers to make requests.</p><h3 id=sending-a-request>Sending a request</h3><p>The <code>fetch()</code> only requires one parameter which is the url for the resources you want to fetch.
+let response = fetch(url);
+The <code>fetch()</code> returns a <code>Promise</code> so you can use <code>then</code> and <code>catch</code> to handle it.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>        <span style=color:#a6e22e>fetch</span>(<span style=color:#a6e22e>url</span>)
+</span></span><span style=display:flex><span>        .<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>response</span> =&gt; {
+</span></span><span style=display:flex><span>        <span style=color:#75715e>//Handle response
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        })
+</span></span><span style=display:flex><span>        .<span style=color:#66d9ef>catch</span>(<span style=color:#a6e22e>error</span> =&gt;{
+</span></span><span style=display:flex><span>         <span style=color:#75715e>//Handle error
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        });
+</span></span></code></pre></div><p>When the response completes the response is available. At this time, the Promise will resolve into <code>Response</code> object.
+The <code>Response</code> object is the API wrapper for the fetched url resources. The <code>Response</code> object has a number of useful properties and methods to inspect the response.
+Let&rsquo;s get right into the juice.
+Visit this <a href=https://catfact.ninja/fact><span> link </span></a>to get some free APIs. Choose any that you please. In our case we will use <code>Cat facts APIs</code>. I love cats!!</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=display:flex><span>        <span style=color:#66d9ef>import</span> <span style=color:#e6db74>&#34;./App.css&#34;</span>;
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>import</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>from</span> <span style=color:#e6db74>&#34;react&#34;</span>;
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>App</span> <span style=color:#f92672>=</span> () =&gt; {
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>catFact</span> <span style=color:#f92672>=</span> {};
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>let</span> <span style=color:#a6e22e>fact</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;&#39;</span>;
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>fetchAPI</span> <span style=color:#f92672>=</span> () =&gt; {
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>fetch</span>(<span style=color:#e6db74>&#34;https://catfact.ninja/fact&#34;</span>)
+</span></span><span style=display:flex><span>            .<span style=color:#a6e22e>then</span>((<span style=color:#a6e22e>response</span>) =&gt; {
+</span></span><span style=display:flex><span>                <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>response</span>.<span style=color:#a6e22e>json</span>();
+</span></span><span style=display:flex><span>            })
+</span></span><span style=display:flex><span>            .<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>data</span> =&gt;{
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>catFact</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>data</span>;
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>fact</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>catFact</span>.<span style=color:#a6e22e>fact</span>;
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>( <span style=color:#a6e22e>catFact</span> );
+</span></span><span style=display:flex><span>            <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>fact</span>);
+</span></span><span style=display:flex><span>            })
+</span></span><span style=display:flex><span>            .<span style=color:#66d9ef>catch</span>((<span style=color:#a6e22e>err</span>) =&gt; <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>err</span>))
+</span></span><span style=display:flex><span>        };
+</span></span><span style=display:flex><span>        <span style=color:#a6e22e>fetchAPI</span>();
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>return</span> (
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>div</span> <span style=color:#a6e22e>className</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;App&#34;</span><span style=color:#f92672>&gt;</span>
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&lt;</span><span style=color:#a6e22e>h1</span><span style=color:#f92672>&gt;</span><span style=color:#a6e22e>First</span> <span style=color:#a6e22e>React</span> <span style=color:#a6e22e>App</span><span style=color:#f92672>!&lt;</span><span style=color:#960050;background-color:#1e0010>/h1&gt;</span>
+</span></span><span style=display:flex><span>            <span style=color:#f92672>&lt;</span><span style=color:#960050;background-color:#1e0010>/div&gt;</span>
+</span></span><span style=display:flex><span>        );
+</span></span><span style=display:flex><span>        };
+</span></span><span style=display:flex><span>        <span style=color:#66d9ef>export</span> <span style=color:#66d9ef>default</span> <span style=color:#a6e22e>App</span>;
+</span></span></code></pre></div><p>To your previous code, add the above snippet and open your console to view your data. Now as an assignment work on displaying the data on your browser.
+There are better libararies used to fetch APIs such as <code>axios</code>.<a href=https://github.com/axios/axios><span>Here&rsquo;s a link to a comprehensive view of axios</span></a>
+React has a good documentation showing a step to step guide. <a href=https://reactjs.org/>Check it out here</a>. See you on the next blog when we talk about <code>props.</code>
+Happy coding!!!!</p></div></div></div><div class=single-post-meta>
+<div class="row justify-content-center">
+<div class="col-lg-5 col-md-6 text-center text-md-left">
+<ul class="post-meta-tags list-unstyled list-inline">
+</ul></div><div class="col-lg-5 col-md-6 text-center text-md-right mt-4 mt-md-0">
+<ul class="social-links has-bg-color list-unstyled list-inline" style=line-height:0>
+<li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://facebook.com/sharer/sharer.php?u=%2fwomenintechblogdev%2fblog%2fgetting-started-with-react%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="lab la-facebook-f text-dark"></i>
+</div></div></a>
+</li><li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://twitter.com/intent/tweet/?text=Getting%20Started%20With%20React&url=%2fwomenintechblogdev%2fblog%2fgetting-started-with-react%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="lab la-twitter text-dark"></i>
+</div></div></a>
+</li><li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="https://plus.google.com/share?url=%2fwomenintechblogdev%2fblog%2fgetting-started-with-react%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="lab la-google-plus-g text-dark"></i>
+</div></div></a>
+</li><li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="mailto:?subject=Getting%20Started%20With%20React&body=%2fwomenintechblogdev%2fblog%2fgetting-started-with-react%2f" target=_self rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="las la-envelope text-dark"></i>
+</div></div></a>
+</li><li class=list-inline-item>
+<a class="resp-sharing-button__link d-block" href="whatsapp://send?text=Getting%20Started%20With%20React%20%2fwomenintechblogdev%2fblog%2fgetting-started-with-react%2f" target=_blank rel=noopener aria-label>
+<div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
+<div aria-hidden=true class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+<i class="lab la-whatsapp text-dark"></i>
+</div></div></a>
+</li></ul></div></div></div><div class=single-post-author>
+<div class="row justify-content-center">
+<div class=col-lg-10>
+<div class="media d-block d-sm-flex text-center text-sm-left">
+<a href=/womenintechblogdev/author/valary-uhuru/>
+<img loading=lazy decoding=async src=/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_150x150_resize_q95_h2_box.webp alt="Valary Uhuru" class="img-fluid rounded-circle mr-0 mr-sm-4 mb-4" width=150 height=150 onerror='this.onerror="null",this.src="/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_150x150_resize_q95_box.jpg"'>
 </a>
-<div class=card-body>
-<ul class="card-meta list-inline mb-2">
-<li class="list-inline-item mb-2">
-<a href=/womenintechblogdev/author/valary-uhuru/ class=card-meta-author>
-<img loading=lazy decoding=async src=/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_26x26_resize_q95_h2_box.webp alt="Valary Uhuru" class=w-auto width=26 height=26 onerror='this.onerror="null",this.src="/womenintechblogdev/images/avatars/valary-uhuru/rsz_rsz_valary_huc1724776fff0023747d9600d1dbcb61a_80207_26x26_resize_q95_box.jpg"'>
-<span>Valary Uhuru</span>
-</a>
-</li><li class="list-inline-item mb-2">
-<span>04 Nov, 2021</span>
-</li><li class="list-inline-item mb-2">
-<ul class="card-meta-tag list-inline">
-</ul></li></ul><h3 class=mb-3>
-<a class=post-title href=/womenintechblogdev/blog/getting-started-with-react/>Getting Started With React</a>
-</h3><p>I can almost bet on it that you&amp;rsquo;ve fallen in love with JavaScript and want to dive deeper into learning some of it&amp;rsquo;s libaries and …</p></div></article></div><div class=col-lg-6>
+<div class=media-body>
+<p class="font-primary mb-1">Written By</p><h4><a href=/womenintechblogdev/author/valary-uhuru/ class="text-dark font-weight-700">Valary Uhuru</a></h4><p class=font-primary>Software Engineer| Public Speaking Enthusiast | Tech Writter</p><ul class="social-links list-unstyled list-inline ml-0 ml-sm-n2">
+<li class=list-inline-item><a href=https://github.com/UhuruV>
+<i class="lab la-github"></i>
+</a></li></ul></div></div></div></div></div><div class=single-post-similer>
+<div class="row justify-content-center">
+<div class=col-lg-10>
+<div class="row mt-3">
+<div class=col-12>
+<h3 class="text-dark font-weight-800 mb-4 pb-2">You May Also Like</h3></div><div class=col-md-6>
 <article class="card post-card">
 <a href=/womenintechblogdev/blog/writing-a-blog/>
 <picture>
@@ -112,10 +282,7 @@ AUTHOR WEBSITE: https://themefisher.com
 </ul></li></ul><h3 class=mb-3>
 <a class=post-title href=/womenintechblogdev/blog/writing-a-blog/>Writing a Blog</a>
 </h3><p>Clone If you are working on this project for the first time follow the below steps.
-Make a fork of the project from …</p></div></article></div></div><div class=row>
-<div class=col-12>
-<nav class=mt-4>
-</nav></div></div></div></div></div></section><footer class=section-sm>
+Make a fork of the project from …</p></div></article></div></div></div></div></div></div></section><footer class=section-sm>
 <div class=container>
 <div class="row justify-content-center align-items-center">
 <div class=col-lg-5>
