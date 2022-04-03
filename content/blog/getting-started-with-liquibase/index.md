@@ -4,7 +4,7 @@ date: 2021-03-29T20:18:00+03:00
 image: /images/hero/maureen-josephine/getting-started-with-liquibase/image.jpeg
 summary: "This blog post provides an overview on how to get started with Liquibase."
 author: "Maureen Josephine"
-draft: true
+draft: false
 ---
 
 

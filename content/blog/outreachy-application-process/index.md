@@ -4,7 +4,7 @@ date: 2021-06-14T20:19:36+03:00
 image: /images/hero/cess-wairimu/outreachy-application-process/outreachy.png
 summary: "This blog outlines my Outreachy application process and some personal advise about the same."
 author: "Cess Wairimu"
-draft: true
+draft: false
 ---
 
 # My Outreachy Application Process
