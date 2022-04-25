@@ -171,17 +171,17 @@ weight = 2
 
 # Social Icons
 [[params.social]]
-icon = "lab la-facebook-f" # https://icons8.com/line-awesome
-url = "https://www.facebook.com/"
+icon = "lab la-linkedin-f" # https://icons8.com/line-awesome
+url = "https://www.linkedin.com/company/women-in-tech-shoutouts"
 
 [[params.social]]
 icon = "lab la-twitter" # https://icons8.com/line-awesome
-url = "https://www.twitter.com/"
+url = "https://twitter.com/W_TechShoutOuts/"
 
 [[params.social]]
 icon = "lab la-instagram" # https://icons8.com/line-awesome
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/w_techshoutouts/"
 
 [[params.social]]
-icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-url = "https://www.linkedin.com/"
+icon = "lab la-youtube-in" # https://icons8.com/line-awesome
+url = "https://www.youtube.com/channel/UCAhsktTF6b8WagxFObpg6Xw"
