@@ -7,42 +7,43 @@ draft: false
 #caption
 caption:
   enable: true
-  title: "I’m Henara Colii, A content writer based in LDN, currently at Bookworm."
+  title: "Tambua Women In Tech"
 
 # social
 social:
   enable: true
   social_links:
-  - link: "https://www.facebook.com/"
-    icon: "lab la-facebook-f"
-
-  - link: "https://www.twitter.com/"
+  - link: "https://twitter.com/W_TechShoutOuts/"
     icon: "lab la-twitter"
     
-  - link: "https://www.linkedin.com/"
+  - link: "https://www.linkedin.com/company/women-in-tech-shoutouts"
     icon: "lab la-linkedin-in"
     
-  - link: "https://www.github.com/"
+  - link: "https://github.com/Tambua-WomenInTech-Blog/"
     icon: "lab la-github"
 
-# what_i_do
+  - link: "https://www.instagram.com/w_techshoutouts/"
+    icon: "lab la-instagram"
+
+  - link: "https://www.youtube.com/channel/UCAhsktTF6b8WagxFObpg6Xw"
+    icon: "lab la-youtube"
+
+# what_we_do
 what_i_do:
-  title: "What I Do"
+  title: "What We Do"
   enable: true
   item:
-  - title: "Content Writing"
+  - title: "Women In Tech Blog"
     icon: "las la-pen-nib"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
+    description: "A WomenInTech OpenSource Blog site. Allows various authors to put down their thoughts into writing regarding variety of topics including technical writing, personal tech journey and non-technical topics within tech field."
     
-  - title: "Photography"
+  - title: "Women In Tech ShoutOuts"
     icon: "las la-camera"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
+    description: "Tambua.Women.In.Tech gives shoutouts to amazing Women in STEM worldwide for the good work they are doing in the Tech Ecosystem"
     
-  - title: "Web Research"
+  - title: "Women In Tech FiresideChats"
     icon: "lar la-snowflake"
-    description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
+    description: "We are thrilled to introduce the #MyTechJourney Series where we get to have Fireside chats with amazing Women In STEM regarding their Tech journey"
  
 ---
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
-
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+We are so excited to introduce TambuaWomenInTech. "Tambua" is a Swahili term for recognize. Motivation is what drives us to make things happen, however staying motivated isn't always easy. Our aim is to Recognize, Inspire and Enlighten by giving ShoutOuts to amazing #womeninSTEM for the good work. Stay Tuned🙂
