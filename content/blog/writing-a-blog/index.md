@@ -14,9 +14,18 @@ If you are working on this project for the first time follow the below steps.
 Make a fork of the project from [https://github.com/Tambua-WomenInTech-Blog/womenintechblog/fork/](https://github.com/Tambua-WomenInTech-Blog/womenintechblog/fork/). Next, clone the project into an empty directory. 
 
 ```bash 
-git clone --recurse-submodules -j8 https://github.com/<YOUR-USERNAME>/womenintechblog && cd womenintechblog
+git clone --recurse-submodules -j8 https://github.com/<YOUR-USERNAME>/womenintechblog.git && cd womenintechblog
 # git clone --recurse-submodules -j8 https://github.com/nerd/womenintechblog && cd womenintechblog
 ``` 
+
+## Update Submodules 
+
+You need to also clone the submodules into your working directory as these contain the themes for the website.
+To do so, run the command below
+
+```bash
+git submodule update --remote --merge
+```
 
 ## Branch 
 
@@ -86,7 +95,7 @@ draft: true
 To create a new author run the follwowing command in your terminal of choice
 
 ```sh
-hugo new author/firstname-lastname
+hugo new author/firstname-lastname.md
 ```
 
 Each author will have their info inside the `content/author/<firstname-lastname>.md` file and their avatars _**will have to be added**_ inside the `static/images/avatars/<firstname-lastname>` folder, the image size should be cropped to `512 pixels x 512 pixels`
