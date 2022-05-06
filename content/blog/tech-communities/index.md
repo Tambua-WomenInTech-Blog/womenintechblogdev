@@ -33,11 +33,11 @@ This is a community of over 2,400+ African software designers and developers col
 
 ### 6. Flutter Communities
 
-This consists of a various communities of Developers who are mostly interested in Flutter and its associated Technologies. Flutter is an SDK developed by Google and runs on multiple platforms including Mobile(Android & iOS), Web and Desktop from a single codebase. The Flutter Communities are spread all over the world. Be sure to search them on social media such as Twitter or LinkedIn to get connected to one. However you can checkout this to get connected to the main [<span style="color:blue"> **Flutter Developer Community **</span>](https://flutter.dev/community).
+This consists of a various communities of Developers who are mostly interested in Flutter and its associated Technologies. Flutter is an SDK developed by Google and runs on multiple platforms including Mobile(Android & iOS), Web and Desktop from a single codebase. The Flutter Communities are spread all over the world. Be sure to search them on social media such as Twitter or LinkedIn to get connected to one. However you can checkout this to get connected to the main [<span style="color:blue"> **Flutter Developer Community.**</span>](https://flutter.dev/community)
 
 ### 7. Flutterista Community
 
-The Flutteristas Community is a world-wide community of people whose gender identity is either female or non-binary and have an interest in the Flutter SDK. The Flutteristas have a monthly meeting which usually includes a presentation by Flutter Community members. Check it out here to be part of the [<span style="color:blue"> **Flutteristas Community **</span>](https://twitter.com/flutteristas).
+The Flutteristas Community is a world-wide community of people whose gender identity is either female or non-binary and have an interest in the Flutter SDK. The Flutteristas have a monthly meeting which usually includes a presentation by Flutter Community members. Check it out here to be part of the [<span style="color:blue"> **Flutteristas Community.**</span>](https://twitter.com/flutteristas)
 
 ### 8. Kotlin Kenya
 
@@ -70,7 +70,7 @@ This is a community of Ruby programmers and  Ruby Enthusiasts. Check it out [<sp
 
 ### 15. Atlassian Community
 
-This is a community of Atlassian tools lovers and Enthusiasts converging to discuss emerging topics and Technologies revolving around Atlassian Tools like Confluence, Jira, BitBucket among Others. Checkout [<span style="color:blue"> **Official Atlassian Twitter**</span>] (https://twitter.com/Atlassian) and [<span style="color:blue"> **this**</span>] (https://twitter.com/ACNairobi) for various events or meetup updates.
+This is a community of Atlassian tools lovers and Enthusiasts converging to discuss emerging topics and Technologies revolving around Atlassian Tools like Confluence, Jira, BitBucket among Others. Checkout [<span style="color:blue"> **Official Atlassian Twitter**</span>](https://twitter.com/Atlassian) and [<span style="color:blue"> **this**</span>](https://twitter.com/ACNairobi) for various events or meetup updates.
 
 ### 16. Codennovation
 
@@ -82,7 +82,7 @@ This is a community of Machine Learning, Data Science and Robotics Enthusiasts a
 
 ### 18. Digital Ocean Community
 
-This is an amazing community of Developers empowering each other through various tutorials. Check them out [<span style="color:blue"> **here**</span>] (https://www.digitalocean.com/community)
+This is an amazing community of Developers empowering each other through various tutorials. Check them out [<span style="color:blue"> **here**</span>](https://www.digitalocean.com/community)
 
 ### 19. Android254
 
@@ -90,7 +90,7 @@ This is a Community of Android Developers who meet to discuss various Android Te
 
 ### 20. Hackernoon
 
-Hackernoon reflects the Technology industry with opinions and stories written by Real Tech Professionals. It covers a variety of Tech topics with interestng conversations. Check it out [<span style="color:blue"> **here**</span>]( https://hackernoon.com/)
+Hackernoon reflects the Technology industry with opinions and stories written by Real Tech Professionals. It covers a variety of Tech topics with interestng conversations. Check it out [<span style="color:blue"> **here**</span>](https://hackernoon.com/)
 
 ### 21. AWS User Group
 
@@ -112,16 +112,16 @@ This is a community of Digital Marketing Professionals and Enthusiasts who focus
 ### 25. HackerNews
 
 This is a social news website focusing on computer science and entreprenuership. It's a great site to help one get connected to any catchy tech news and in turn creates an amazing community. Check out HackerNews
-[<span style="color:blue"> **here**</span>] (https://news.ycombinator.com/).
+[<span style="color:blue"> **here**</span>](https://news.ycombinator.com/).
 
 
 ### 26. Hashnode
 
-Hasnode gives you an opportunity to share thouhts in form of writing blogs and connecting with a Community. To get started, Check it out [<span style="color:blue"> **here**</span>] (https://hashnode.com/).
+Hasnode gives you an opportunity to share thouhts in form of writing blogs and connecting with a Community. To get started, Check it out [<span style="color:blue"> **here**</span>](https://hashnode.com/).
 
 ### 27. WomenWhoCode
 
-Women Who Code is a community of Women In Tech which Empowers women in Tech in various Tech Capacity to help them stand out. Check it out WomenWhoCode website [<span style="color:blue"> **here**</span>] (https://www.womenwhocode.com/).
+Women Who Code is a community of Women In Tech which Empowers women in Tech in various Tech Capacity to help them stand out. Check it out WomenWhoCode website [<span style="color:blue"> **here**</span>](https://www.womenwhocode.com/).
 
 ### 28. SheCodeAfrica
 
@@ -129,7 +129,7 @@ She Code Africa aims to celebrate Women In Tech across Africa in various capacit
 
 ### 29. WomenInStem Network
 
-Women In Stem aims to mentor Women to venture into various STEM Careers to bridge the gender parity gap in the STEM field. Checkout WomenInStem network [<span style="color:blue"> **here**</span>] (https://womeninstem.org/).
+Women In Stem aims to mentor Women to venture into various STEM Careers to bridge the gender parity gap in the STEM field. Checkout WomenInStem network [<span style="color:blue"> **here**</span>](https://womeninstem.org/).
 
 ### 30. Rails Girls
 
@@ -146,30 +146,30 @@ LiquiBase is a Database management system that helps you manage your Database ch
 
 ### 33. SheHacksKe
 
-SheHacks is a community of Women in CyberSecurity in Kenya whose aim is to provide women in cybersecurity and cyber security enthusiasts a platform to interact and help one another grow in the cybersec field. Check it out [<span style="color:blue"> **here**</span>] (https://www.shehackske.com/).
+SheHacks is a community of Women in CyberSecurity in Kenya whose aim is to provide women in cybersecurity and cyber security enthusiasts a platform to interact and help one another grow in the cybersec field. Check it out [<span style="color:blue"> **here**</span>](https://www.shehackske.com/).
 
 ### 34. Dev Careers
 
-Dev Careers is aimed at providing upcoming Developers with necessary Skillset as they venture into their tech journey. Check it out [<span style="color:blue"> **here**</span>] (https://devcareer.io/).
+Dev Careers is aimed at providing upcoming Developers with necessary Skillset as they venture into their tech journey. Check it out [<span style="color:blue"> **here**</span>](https://devcareer.io/).
 
 ### 35. DevRel Collective
 
-This is a Community of Developer Advocates, Community Managers and Evangelists whose aim is to share insights around Deveroper Relations. Check it out [<span style="color:blue"> **here**</span>] (https://devrelcollective.fun/)
+This is a Community of Developer Advocates, Community Managers and Evangelists whose aim is to share insights around Deveroper Relations. Check it out [<span style="color:blue"> **here**</span>](https://devrelcollective.fun/)
 
 ### 36. DailyUI
 
-DailyUI aims to give aid to UX/UI enthusiasts on  how they can be better Designers with series of Daily Design Challenges and Inspiration which sometimes have Surprise Rewards. Check it out [<span style="color:blue"> **here**</span>] (https://www.dailyui.co/).
+DailyUI aims to give aid to UX/UI enthusiasts on  how they can be better Designers with series of Daily Design Challenges and Inspiration which sometimes have Surprise Rewards. Check it out [<span style="color:blue"> **here**</span>](https://www.dailyui.co/).
 
 ### 37. WomenTechMakers
 
-WomenTechMakers is Google's initiative that provides visilbilty, community and resources for women in Tech. Checkout WomenTechMakers Impact and mission from their official website [<span style="color:blue"> **here**</span>] (https://www.womentechmakers.com/).
+WomenTechMakers is Google's initiative that provides visilbilty, community and resources for women in Tech. Checkout WomenTechMakers Impact and mission from their official website [<span style="color:blue"> **here**</span>](https://www.womentechmakers.com/).
 
 ### 38. ReactDevsKe
 This is a community of React Developers who focus on the React libraryand React Related Technologies. Check it out
 [<span style="color:blue"> **here**</span>](https://twitter.com/reactdevske?lang=en).
 
 ### 39. eKRAAL Innovation Hub
-eKRAAL is a Cybersecurity Innovation Hub whose aim is to retain, nurture and promote cyber security enthusiasts and provide guidance on how they can upskill their CyberSecurity careers. Check it out [<span style="color:blue"> **here**</span>] (https://e-kraal.com/).
+eKRAAL is a Cybersecurity Innovation Hub whose aim is to retain, nurture and promote cyber security enthusiasts and provide guidance on how they can upskill their CyberSecurity careers. Check it out [<span style="color:blue"> **here**</span>](https://e-kraal.com/).
 
 ### 40. LuxTech Academy
 
@@ -177,7 +177,7 @@ LuxTech Academy provides guidance and mentorship on Programming, Software Engine
 
 ### 41. Ladies of Lux
 
-This is a subset of LuxTech Academy that majorly focuses on advancing on Gender Equlity,social inclusion and shared prosperity of Women in the Tech Ecosystem. Check it Out [<span style="color:blue"> **here**</span>] (https://twitter.com/Ladies_Of_Lux).
+This is a subset of LuxTech Academy that majorly focuses on advancing on Gender Equlity,social inclusion and shared prosperity of Women in the Tech Ecosystem. Check it Out [<span style="color:blue"> **here**</span>](https://twitter.com/Ladies_Of_Lux).
 
 ### 42. Angular Kenya
 
@@ -188,12 +188,12 @@ This is a Community of Developers using Angular in their software development. T
 The Vue community comprises of Developers who are interested in the programming language. They meet to discuss topics around VueJS and its related topics. Check it out here [<span style="color:blue"> **here**</span>](https://twitter.com/kenyavue).
 
 ### 44. TensorFlow Nairobi Community
-This is a community of Tensorflow experts and enthusiasts who are interested in davancing their Tensorflow knowledge. Check it out [<span style="color:blue"> **here**</span>] (https://www.meetup.com/Tensorflow-Nairobi)
+This is a community of Tensorflow experts and enthusiasts who are interested in davancing their Tensorflow knowledge. Check it out [<span style="color:blue"> **here**</span>](https://www.meetup.com/Tensorflow-Nairobi)
 
 ### 45. Stackoverflow Community
 Finaaally,the renown StackOverflow :). Stakoverflow Community is a community where developers share content through writing or videos and not leaving behind asking and answering code Questions. Check it out [<span style="color:blue"> **here**</span>](https://stackoverflow.blog/community/).
 
 
-These are are some of the Tech Communities that you can find a home in 🙂. Might not have captured every single Tech community, but don't hesitate to add your community in our past [<span style="color:blue"> **Twitter thread **</span>] (https://twitter.com/W_TechShoutOuts/status/1401222458892599298) that you feel should be captured.
+These are are some of the Tech Communities that you can find a home in 🙂. Might not have captured every single Tech community, but don't hesitate to add your community in our past [<span style="color:blue"> **Twitter thread**</span>](https://twitter.com/W_TechShoutOuts/status/1401222458892599298) that you feel should be captured.
 
 Thank you 😍!
