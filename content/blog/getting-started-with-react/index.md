@@ -9,7 +9,7 @@ draft: false
 
 I can almost bet on it that you've fallen in love with JavaScript and want to dive deeper into learning some of it's libaries and frameworks. Well if that's the case then this is the place to be. This guide will walk you through everything you need to know to get started with React.
 
-We'll get set up, explain the how's and why's behind the basic concepts and build a small project that displays data from an API. I am assuming that we have a little knowledge of JavaScript core concepts such as Asychronous programing, Promises, Hoisting, ES6 Syntax etc. If not visit here [<span style="color:blue"> **JavaScript Concepts That Every Developer Must Know** </span>]( https://www.geeksforgeeks.org/7-javascript-concepts-that-every-developer-must-know/) to learn more.
+We'll get set up, explain the how's and why's behind the basic concepts and build a small project that displays data from an API. I am assuming that we have a little knowledge of JavaScript core concepts such as Asychronous programing, Promises, Hoisting, ES6 Syntax etc. If not visit here [<span style="color:#9B2B77"> **JavaScript Concepts That Every Developer Must Know** </span>]( https://www.geeksforgeeks.org/7-javascript-concepts-that-every-developer-must-know/) to learn more.
 
 Grab a drink, buckle up and let's get started!
 
@@ -59,7 +59,7 @@ If you have **Node JS** and **Visual Studio Code** (or your preffered IDE) set u
 
 Do I really need node to set up a React app? The answer is no. If you are a web developer that can handle HTML/CSS and JavaSCript you can try React without Node JS or any other complext tool to manage it. That's your assignment.
 
-In our case we need Node js. To download it visit [<span style="color:blue">**this link**</span>]( https://nodejs.org/en/download/ ) and choose one that fit's your machine.
+In our case we need Node js. To download it visit [<span style="color:#9B2B77">**this link**</span>]( https://nodejs.org/en/download/ ) and choose one that fit's your machine.
 
 When the installation is complete, open your terminal and type 
  > node -v 
@@ -72,7 +72,7 @@ Hurrraaaaaayy!!! Congratulations! You have completed the first step to getting s
 
 VSC is a popular Open Source IDE for frontend development. There's a bunch of IDEs that you can try depending on your preference. For now we will run with Visual Studio Code.
 
-Click [<span style="color:blue">**this link**</span>]( https://code.visualstudio.com/download ) to download the version that suits your platform.
+Click [<span style="color:#9B2B77">**this link**</span>]( https://code.visualstudio.com/download ) to download the version that suits your platform.
 That's enough development set up for now.
 
 

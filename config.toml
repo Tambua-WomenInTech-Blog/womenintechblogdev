@@ -68,10 +68,10 @@ h5 = "18px"
 h6 = "16px"
 white = "#ffffff"
 black = "#000000"
-dark = "#152035"
+dark = "#750550"
 gray = "#747577"
 light = "#FAFAFA"
-color_primary = "#01AD9F"
+color_primary = "#9B2B77"
 
 #################### default parameters ################################
 [params]
@@ -171,7 +171,7 @@ weight = 2
 
 # Social Icons
 [[params.social]]
-icon = "lab la-linkedin-f" # https://icons8.com/line-awesome
+icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
 url = "https://www.linkedin.com/company/women-in-tech-shoutouts"
 
 [[params.social]]
@@ -183,5 +183,5 @@ icon = "lab la-instagram" # https://icons8.com/line-awesome
 url = "https://www.instagram.com/w_techshoutouts/"
 
 [[params.social]]
-icon = "lab la-youtube-in" # https://icons8.com/line-awesome
+icon = "lab la-youtube" # https://icons8.com/line-awesome
 url = "https://www.youtube.com/channel/UCAhsktTF6b8WagxFObpg6Xw"
