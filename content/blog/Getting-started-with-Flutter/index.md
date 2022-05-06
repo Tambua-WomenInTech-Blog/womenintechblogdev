@@ -78,7 +78,7 @@ You can join the gitter chat to get connected with people who have had hands-on 
 
 ### 11. GitHub Repositories.
 
-After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: [<span style="color:#9B2B77"> ** Flutter GitHub Repositories** </span>](https://github.com/awesome-flutter)
+After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: [<span style="color:#9B2B77"> **Flutter GitHub Repositories** </span>](https://github.com/awesome-flutter)
 
 ### 12. Flutter Weekly.
 
