@@ -32,7 +32,7 @@ After having a basic idea of what flutter is, you might be eager to know about t
   * VScode
   * Xcode 
 
-You could check this [<span style="color:#9B2B77"> **Getting Started with Flutter** </span>]( https://flutter.dev/docs/get-started/editor) on steps on how to set up Flutter on your favourable editor.
+You could check this [<span style="color:#9B2B77"> **Getting Started with Flutter** </span>](https://flutter.dev/docs/get-started/editor) on steps on how to set up Flutter on your favourable editor.
 
 ### 3. Learn about this beautiful language - Dart
 
@@ -45,14 +45,13 @@ You can also use this online editor [<span style="color:#9B2B77"> **Dart Pad** <
 ### 4. Write your first Flutter App
 
 After going through the basic OOP programming concepts like looping, functions, variables, classes, and conditional statements, you are now confident enough to start up your first Flutter Application. Everything in flutter is a widget including screens,texts, graphics, Containers etc. UI design in Flutter involves creating widgets.
-You can check out [<span style="color:#9B2B77"> **Flutter Codelab** </span>]( https://flutter.dev/docs/get-started/codelab)to start up your first hello world flutter app. You can either use your phone or an emulator to run your app using the command ```flutter run```.
+You can check out [<span style="color:#9B2B77"> **Flutter Codelab** </span>](https://flutter.dev/docs/get-started/codelab)to start up your first hello world flutter app. You can either use your phone or an emulator to run your app using the command ```flutter run```.
 
 ### 5. Google Codelabs.
 
 This involves step by step procedures to code challenges. It is interesting because it is very practical, you can follow along the codelabs and maybe later on tweak to your own way.
 You can check them out at
-[<span style="color:#9B2B77"> **Google Codelabs** </span>](https://flutter.dev/docs/codelabs
-) 
+[<span style="color:#9B2B77"> **Google Codelabs** </span>](https://flutter.dev/docs/codelabs) 
 
 ### 6. Udemy Flutter Course
 
@@ -79,7 +78,7 @@ You can join the gitter chat to get connected with people who have had hands-on 
 
 ### 11. GitHub Repositories.
 
-After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: [<span style="color:#9B2B77"> ** Flutter GitHub Repositories** </span>](https://github.com/Solido/awesome-flutter)
+After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: [<span style="color:#9B2B77"> ** Flutter GitHub Repositories** </span>](https://github.com/awesome-flutter)
 
 ### 12. Flutter Weekly.
 

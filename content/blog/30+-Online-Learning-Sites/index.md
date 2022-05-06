@@ -20,12 +20,10 @@ Each course has specified learning period. Check it out here: [<span style="colo
 Pluralsight offers wide range of courses revolving around software development, IT OPS, Cyber Security, Data Science, Machine Learning and AI among others. Pluralsight also gives a chance for doing skills assesment tests,this is a nice way to gauge your uderstanding of the courses. Check it out here: [<span style="color:#9B2B77"> **Pluralsight Courses** </span>](https://www.pluralsight.com/browse)
 
 ### 3. Coursera
-Coursera collaborates with leading companies and universities to offer a wide range of courses depending on what you would like to study. Some courses have real life capstone assignments that helps you connect what you studied in the online course to whats happening in real world. Check it out here: [<span style="color:#9B2B77"> **Coursera Courses** </span>]
-(https://www.coursera.org)
+Coursera collaborates with leading companies and universities to offer a wide range of courses depending on what you would like to study. Some courses have real life capstone assignments that helps you connect what you studied in the online course to whats happening in real world. Check it out here: [<span style="color:#9B2B77"> **Coursera Courses** </span>](https://www.coursera.org)
 
 ### 4. Udemy
-Udemy offers a wide range of courses within a specified period, you can always fix your study time within your busy work,school or business schedule. Some courses are fee and some are offered at a fee. Check it out here: [<span style="color:#9B2B77"> **Udemy Courses** </span>]
-(https://www.udemy.com)
+Udemy offers a wide range of courses within a specified period, you can always fix your study time within your busy work,school or business schedule. Some courses are fee and some are offered at a fee. Check it out here: [<span style="color:#9B2B77"> **Udemy Courses** </span>](https://www.udemy.com)
 
 ### 5. Codecademy
 If you want to learn to code in a step by step interactive environment, codecadmy offers that experience with wide range of resources to learn from. Check it out here: [<span style="color:#9B2B77"> **Codecademy Courses** </span>](https://www.codecademy.com)
@@ -52,7 +50,7 @@ Codeeasy helps people learn how to program through reading adventure story. Whil
 Edabit is an open source online platform that helps programmers learn how to code by offering interactive code challenges. They also add game mechanics to make the learning process fun. Check it out here: [<span style="color:#9B2B77"> **Edabit** </span>](https://edabit.com)
 
 ### 12. EdX
-EdX offers a variety of online university-level courses in wide range of disciplines. Check it out here: [<span style="color:#9B2B77"> ** EdX Courses** </span>](https://www.edx.org)
+EdX offers a variety of online university-level courses in wide range of disciplines. Check it out here: [<span style="color:#9B2B77"> **EdX Courses** </span>](https://www.edx.org)
 
 ### 13. Exercism
 Exercism is a free online,open source platform that offers coding practice and mentorship on different pragmmming Languages. Check it out here: [<span style="color:#9B2B77"> **Exercism** </span>](https://exercism.io)
@@ -74,7 +72,7 @@ Code.org offers a wide variety of courses for students in different languages. I
 W3Schools is a website that offers educational content for learning to code. It has a wide range of tutorials that can get you up on track include SQL, Python, JavaScript tutorials among others. Check it out here: [<span style="color:#9B2B77"> **W3Schools Tutorials** </span>](https://www.w3schools.com)
 
 ### 19. UpSkill
-Upskill offers a variety of courses that can help you start learning to code from scratch. Check it out here: [<span style="color:#9B2B77"> ** UpSkill Courses** </span>](https://upskillcourses.com)
+Upskill offers a variety of courses that can help you start learning to code from scratch. Check it out here: [<span style="color:#9B2B77"> **UpSkill Courses** </span>](https://upskillcourses.com)
 
 ### 20. Hack.pledge()
 Hack Pledge offers learning and teaching code opportunities to programmers in a very interactive way. Check it out here: [<span style="color:#9B2B77"> **Hack Pledge courses** </span>](https://www.hackerpledge.org)
