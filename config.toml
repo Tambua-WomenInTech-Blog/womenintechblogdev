@@ -76,7 +76,7 @@ color_primary = "#9B2B77"
 #################### default parameters ################################
 [params]
 logo = "images/logo.svg"
-logo_width = "50px"
+logo_width = "60px"
 favicon = "images/favicon.png"
 # Meta data
 description = "This is meta description"
