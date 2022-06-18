@@ -84,9 +84,13 @@ date: Auto-generated DO NOT EDIT
 image: ./images/hero/hero.jpg
 summary: A short summary about your blog.
 author: "Your Name"
+categories: ["Golang"]
+tags: ["Channels", "Mutexes"]
 draft: true
 ---
 ``` 
+
+Edit the `Tags` and `Categories` as required. As a rule of thumb, say you were blogging about a concept such as `Triggers` in `PostgreSQL`, your categories could be `PostgreSQL` and tags could be `Triggers`. 
 
 ## Author Info 
 
@@ -119,7 +123,7 @@ Each author will have their info inside the `content/author/<firstname-lastname>
 |-- README.md
 ``` 
 
-Inside `content/authors/<firstname-lastname>/_.index.md` add the contents as follows.
+Inside `content/authors/<firstname-lastname>/index.md` add the contents as follows.
 
 
 ```markdown 
