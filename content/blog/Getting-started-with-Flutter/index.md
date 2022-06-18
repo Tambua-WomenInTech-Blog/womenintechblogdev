@@ -4,6 +4,8 @@ date: 2021-01-20T20:19:58+03:00
 image: /images/hero/maureen-josephine/Getting-started-with-Flutter/image.png
 summary: "This blog post shows step by step guidelines on how to Get started with Flutter and Resources to use to help one get in track."
 author: "Maureen Josephine"
+categories: ["Flutter"]
+tags: ["Mobile Development", "Cross-platform","Dart"]
 draft: false
 ---
 

@@ -4,6 +4,8 @@ date: 2021-05-15T20:19:06+03:00
 image: /images/hero/pollet-obuya/postgresql-triggers-vs-constraints/hero.jpeg
 summary: "Blog excerptThis blog post describes what triggers and constraints are and how to know which one to select depending on the problem at hand."
 author: "Pollet Obuya"
+categories: ["Database Management"]
+tags: ["Postresql", "SQL", "Triggers", "Constraints"]
 draft: false
 ---
 

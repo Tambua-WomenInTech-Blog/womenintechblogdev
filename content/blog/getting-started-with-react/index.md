@@ -4,6 +4,8 @@ date: 2021-11-04T15:15:18+03:00
 image: /images/hero/valary-uhuru/getting-started-with-react/image.png
 summary: "Blog excerpt"
 author: "Valary Uhuru"
+categories: ["React"]
+tags: ["Javascript"]
 draft: false
 ---
 

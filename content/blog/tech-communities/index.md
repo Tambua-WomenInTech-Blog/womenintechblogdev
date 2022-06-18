@@ -4,6 +4,8 @@ date: 2021-07-24T20:20:20+03:00
 image: /images/hero/maureen-josephine/tech-communities/image.jpeg
 summary: "This blog post showcases a list of some tech communities that you can join as you continue with your tech journey."
 author: "Maureen Josephine"
+categories: ["Tech Communities"] 
+tags: ["Communities", "Resources"]
 draft: false
 ---
 
